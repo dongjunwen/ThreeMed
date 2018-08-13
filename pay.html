@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="renderer" content="webkit" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>三门峡市湖滨区妇幼保健院</title>
+		<meta name="Keywords" content="医院标题,人民医院,省医" />
+		<meta name="robots" content="All" />
+		<meta http-equiv="mobile-agent" content="format=html5;url=http://m.hnsrmyy.net/" />
+		<noscript><meta http-equiv="refresh" content="0; url=/noscript.htm" /></noscript>
+		<!--[if lt IE 7]><meta http-equiv="refresh" content="0; url=/YouLose.htm" /><![endif]-->
+		<meta name="Author" content="miraclevision technical team,kunyi" />
+
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="css/normalize.css" type="text/css" />
+		<link rel="stylesheet" href="css/index.css" type="text/css" />
+		<link rel="stylesheet" href="css/fastorder.css" type="text/css" />
+		<link rel="stylesheet" href="css/portal.base.min.css" type="text/css" />
+		<link rel="stylesheet" href="css/portal.basic.min.css" type="text/css" />
+		<link rel="stylesheet" href="css/ucenter.css" />
+		<link rel="stylesheet" href="css/pay-2.css" />
+		<link rel="stylesheet" type="text/css" href="css/denglu.css">
+		<link rel="stylesheet" type="text/css" href="css/public.css">
+		<!--[if lt IE 9]><script language="javascript" type="text/javascript" src="js/Kunyi.Respond.min.js" ></script><![endif]-->
+		<script language="javascript" type="text/javascript" src="js/KunyiHTML5.min.js"></script>
+		<script language="javascript" type="text/javascript" src="js/Kunyilibrary.js"></script>
+		<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+		<script type="text/javascript" src="js/manage.js"></script>
+		<script type="text/javascript" src="js/jquery.cookie.js"></script>
+	</head>
+
+	<body>
+		<script language="javascript" type="text/javascript" src="js/Kunyi.Init.js"></script>
+
+		<div class="denglu-first1">
+			<div class="denglu-first1-content">
+				<div class="denglu-first1-content-left">
+					<div class="logo">
+						<a href="index.html" style="font-size: 22px;">三门峡市湖滨区妇幼保健院</a>
+					</div>
+				</div>
+				<div class="denglu-first1-content-right">
+					<p class="jiamengrexian">客服热线</p>
+					<p class="dianhua">400-005-5858</p>
+				</div>
+				<div class="backToIndex">
+					<a href="javascript:;" target="_blank">支付</a>
+				</div>
+
+			</div>
+		</div>
+		<div id="gc" style="min-height: 254px;">
+
+			<input id="total_pay_amount" type="hidden" value="900">
+			<div class="detail-wrap">
+				<div class="order-summary">
+					<h3 class="J_t">
+						您的订单已经创建，请在
+						<span class="left-time J_clock"> 
+							<i></i>
+							<i></i>
+							<i class="time1">14</i>：
+							<i class="time2">59</i>：
+							<i class="time3">59</i>
+						</span> 内完成支付，逾期订单将取消！
+		</h3>
+					<div class="order-detail">
+						<ul>
+							<li>订单描述：预约挂号</li>
+							<li id="orderNo_yu"></li>
+							<li id="myDate"></li>
+						</ul>
+						<div class="order-money">
+							<label>支付金额：<span class="price J_TotalPrice" id="pay-total_amount" data-amount="20.00">20.00元</span></label>
+							<label>实付金额：<span class="real-price J_RealPrice">20.00元</span></label>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="payment-container J_SelfPay">
+				<h2>您可以使用以下支付方式</h2>
+				<ul class="platform-select J_PlatformSelect">
+					<li class="selected" data-id="1">平台支付</li>
+				</ul>
+
+				<!-- 平台支付 -->
+				<div class="platform-list platform-1 J_Platform1" style="display: block;">
+					<form name="myform" class="payment-form" id="paymentForm0" method="post" action="http://10.103.25.80:9666/api/order/pay" target="_blank">
+						<input id="tokenStr" name="tokenStr" type="hidden" data-cash="" data-nocash="0" value="">
+						<input id="orderNo" name="orderNo" type="hidden" data-cash="" data-nocash="0" value="">
+						<div class="payment-radio-list">
+							<div class="select-great-disabled wybank-pay-way">
+								<label><input name="payWay" id="yt_bank" type="radio" checked="checked" >
+								<img class="bank-radio" alt="银通钱包" src="images/bank.jpg"></label>
+							</div>
+						</div>
+						<div class="payment-radio-list">
+							<div class="payment-radio-item" id="plat-pay-way">
+								<label><input name="payWay" id="zfb_bank" type="radio" value="ALIPAY-SCAN_CODE">
+								<img class="bank-radio selected" alt="支付宝支付" src="images/zfb.png"></label>
+							</div>
+							<div class="payment-radio-item" id="plat-pay-way">
+								<label><input name="payWay" id="wx_bank" type="radio">
+								<img class="bank-radio" alt="微信支付" src="images/wx.jpg"></label>
+							</div>
+						</div>
+						<button class="confirm-btn" id="payment-confirm-0" href="javascript:;" type="submit">去付款</button>
+					</form>
+				</div>
+				<!-- 快捷支付 -->
+			</div>
+		</div>
+
+		<footer>
+			<div class="menusBase ">
+				<div class="BaseMark " style="width: 1180px;">
+					<dl><dt><img src="images/ico_006.jpg " class="load " width="36 " height="34 " /><em>门诊服务</em><span>outpatient services</span></dt>
+						<dd>
+							<a href="javascript:; " title="预约流程 ">预约流程</a>
+						</dd>
+						<dd>
+							<a href="javascript:; " title="门诊须知 ">门诊须知</a>
+						</dd>
+						<dd>
+							<a href="javascript:; " title="院内导航 ">院内导航</a>
+						</dd>
+					</dl>
+					<dl><dt><img src="images/ico_008.jpg " class="load " width="36 " height="34 " /><em>住院服务</em><span>hospitalized services</span></dt>
+						<dd>
+							<a href="javascript:; " title="住院须知 ">住院须知</a>
+						</dd>
+						<dd>
+							<a href="javascript:; " title="检查须知 ">检查须知</a>
+						</dd>
+						<dd>
+							<a href="javascript:; " title="住院清单 ">住院清单</a>
+						</dd>
+					</dl>
+					<dl><dt><img src="images/ico_009.jpg " class="load " width="36 " height="34 " /><em>体检服务</em><span>examination services</span></dt>
+						<dd>
+							<a href="javascript:; " title="体检须知 ">体检须知</a>
+						</dd>
+						<dd>
+							<a href="javascript:; " title="体检套餐查询 ">体检套餐查询</a>
+						</dd>
+						<dd>
+							<a href="javascript:; " title="体检报告查询 ">体检报告查询</a>
+						</dd>
+					</dl>
+
+					<div class="clear "></div>
+				</div>
+			</div>
+
+			<div class="BottomHidden "></div>
+
+			<div class="websiteInfo ">
+				<div class="info ">主办单位：三门峡市湖滨区妇幼保健院 &nbsp; &nbsp;综合服务电话：120&nbsp;&nbsp; &nbsp;急救中心电话：120 &nbsp; 传真：120 &nbsp; 地 址：三门峡市湖滨区妇幼保健院 &nbsp;<br/> 版权所有：三门峡市湖滨区妇幼保健院 </div>
+				<ul>
+					<li class="first ">
+						<a href="javascript:; ">关于我们</a>
+					</li>
+					<li>
+						<a href="javascript:; ">法律声明</a>
+					</li>
+					<li>
+						<a href="javascript:; ">网站地图</a>
+					</li>
+					<li>
+						<a href="javascript:; ">联系我们</a>
+					</li>
+					<li>
+						<a href="javascript:; ">院长(信访)信箱</a>
+					</li>
+				</ul>
+				<div class="clear "></div>
+				<p> &copy;2015-
+					<script language="javascript " type="text/javascript ">
+						document.write(new Date().getFullYear());
+					</script>. All Rights Reserved.
+					<a href="javascript:; ">备案号0000001 </a>
+					</a>
+				</p>
+			</div>
+		</footer>
+		<script language="javascript " type="text/javascript " src="js/Kunyi.Common.js "></script>
+		<script>
+			var tokenStr = $.cookie('tokenStr'); //读取cookie
+			$(document).ready(function() {
+				//倒计时
+				$(function() {
+					var i = 14,
+						m = 59,
+						n = 99;
+					setInterval(function() {
+						if(i >= 0) {
+							m = 59;
+							$('.time1').text(i--);
+						}
+					}, 6000)
+					setInterval(function() {
+						if(m >= 0) {
+							n = 99;
+							$('.time2').text(m--);
+						}
+					}, 1000)
+					setInterval(function() {
+						if(n >= 0) {
+							$('.time3').text(n--);
+						}
+					}, 10)
+				})
+				
+				
+			});
+		</script>
+		<script type="text/javascript">
+			//接收上个页面传过来的订单编号
+			var orderNo = "";
+			var myDate = "";
+			var currentdate = "";
+
+			function getParams(key) {
+				var reg = new RegExp("(^|&)" + key + "=([^&]*)(&|$)");
+				var r = window.location.search.substr(1).match(reg);
+				if(r != null) {
+					return unescape(r[2]);
+				}
+				return null;
+			};
+			orderNo = getParams('orderno'); //取到orderNo
+
+			$("#orderNo_yu").html("订单号：" + orderNo);
+			$("#myDate").html("提交时间：" + getNowFormatDate());
+			
+			$("#tokenStr").val(tokenStr);//token
+			$("#orderNo").val(orderNo);//orderNo
+
+			
+			//获取当前时间
+			function getNowFormatDate() {
+				var date = new Date();
+				var seperator1 = "-";
+				var seperator2 = ":";
+				var month = date.getMonth() + 1;
+				var strDate = date.getDate();
+				if(month >= 1 && month <= 9) {
+					month = "0" + month;
+				}
+				if(strDate >= 0 && strDate <= 9) {
+					strDate = "0" + strDate;
+				}
+				currentdate = date.getFullYear() + seperator1 + month + seperator1 + strDate +
+					" " + date.getHours() + seperator2 + date.getMinutes() +
+					seperator2 + date.getSeconds();
+				return currentdate;
+			}
+		</script>
+
+	</body>
+
+</html>

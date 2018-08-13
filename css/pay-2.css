@@ -1,0 +1,1304 @@
+.insur-pop,
+.popupBox {
+	box-shadow: 0 0 3px #999
+}
+
+#gf .code a:hover,
+.confirm-btn:hover,
+.gp-pay .gh-nav a:hover,
+.payment-container.medical-insurance a:hover,
+.popbox .pop-btn:hover,
+.popupBox .failed:hover,
+.popupBox .finish:hover {
+	text-decoration: none
+}
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+b,
+big,
+blockquote,
+body,
+caption,
+center,
+cite,
+code,
+command,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+fieldset,
+figcaption,
+figure,
+font,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+meter,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+progress,
+q,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: 0 0;
+	font-size: 12px
+}
+
+body {
+	font-family: "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "宋体", Arial, Verdana, sans-serif
+}
+
+#gc {
+	padding: 1px
+}
+
+.g-clear:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	overflow: hidden
+}
+
+.gp-pay .gh-nav {
+	height: 28px;
+	line-height: 28px;
+	background: #f5f5f5;
+	border-bottom: 1px solid #eee
+}
+
+.gp-pay .gh-nav .container {
+	width: 980px;
+	margin: 0 auto
+}
+
+.gp-pay .gh-nav a {
+	transition: all .3s ease-out 0s;
+	color: #333;
+	float: left
+}
+
+.gp-pay .gh-nav a:hover {
+	color: #377bee
+}
+
+.gp-pay .gh-nav .line {
+	float: left;
+	color: #bcbcbc;
+	margin: 0 10px;
+	font-size: 14px
+}
+
+.gp-pay .gh-nav .weibo {
+	float: left;
+	margin: 3px 0 0 10px;
+	height: 20px
+}
+
+.gp-pay .gh-nav .text {
+	float: left;
+	padding-right: 6px
+}
+
+.gp-pay .gh-nav .small-logo {
+	background: url(../../img/v2/pictures2-v2.png) 0 -53px no-repeat;
+	display: inline-block;
+	height: 22px;
+	margin-top: 3px;
+	width: 72px
+}
+
+.gp-pay .pay-bg {
+	border-bottom: 3px solid #377bee;
+	height: 100px;
+	text-align: center;
+	margin: 0 auto;
+	width: 98%
+}
+
+.gp-pay .pay-bg .pay-img {
+	margin: 0 auto;
+	width: 980px;
+	height: 100px;
+	background: url(../img/head2.png) left center no-repeat
+}
+
+.gp-pay .pay-bg .wu-pay-img {
+	margin: 0 auto;
+	width: 980px;
+	height: 100px;
+	background: url(../img/wu-logo.png) left center no-repeat
+}
+
+.gp-pay .pay-bg .zj-pay-img {
+	margin: 0 auto;
+	width: 980px;
+	height: 100px;
+	background: url(../img/zj-logo.png) left center no-repeat
+}
+
+.confirm-btn {
+	padding: 12px 20px;
+	background: #f489a3;
+	color: #fff;
+	font-size: 16px;
+	display: block;
+	width: 137px;
+	text-align: center;
+	border-radius: 5px;
+	float: left;
+	margin: 20px 0 0 30px;
+	border: none;
+	cursor: pointer
+}
+
+.next_step {
+	margin-left: 25px;
+	height: 10px;
+	line-height: 10px;
+	width: 100px
+}
+
+.payment-container {
+	width: 886px;
+	border: 2px solid #ffe5e9;
+	padding: 25px 45px 50px;
+	margin: 0 auto 80px;
+	border-radius: 2px;
+	color: #444;
+	overflow: hidden
+}
+
+.payment-container.coupon {
+	margin-bottom: 20px;
+	padding: 0 45px
+}
+
+.payment-container.coupon .coupon-price {
+	position: relative;
+	margin: 10px 0;
+	font-size: 14px
+}
+
+.payment-container.coupon .coupon-price span.price {
+	color: #f90;
+	font-size: 14px
+}
+
+.payment-container.coupon .coupon-price i {
+	background-image: url(../img/coupon-list-button.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-position: -33px -5px;
+	position: absolute;
+	left: -21px;
+	cursor: pointer
+}
+
+.payment-container.coupon .coupon-price i.selected {
+	background-image: url(../img/selected.png);
+	background-position: 0 0;
+	width: 22px;
+	height: 17px;
+	left: -26px;
+	top: -1px;
+	cursor: default
+}
+
+.payment-container.coupon .coupon-price.active i {
+	width: 18px;
+	height: 18px;
+	background-position: -5px -5px
+}
+
+.payment-container.coupon .coupon-list {
+	display: none
+}
+
+.payment-container.coupon .coupon-list ul {
+	list-style-type: none
+}
+
+.payment-container.coupon .coupon-list p {
+	color: #666
+}
+
+.payment-container.coupon .coupon-list li {
+	padding: 10px 0;
+	border-bottom: 1px solid #eee
+}
+
+.payment-container.coupon .coupon-list li:last-child {
+	border-bottom: none
+}
+
+.payment-container.coupon .coupon-list li label,
+.payment-container.coupon .coupon-list li span {
+	display: inline-block;
+	margin-right: 80px
+}
+
+.payment-container.coupon .coupon-list li label {
+	width: 100px
+}
+
+.payment-container.health-coin {
+	padding: 10px 25px;
+	margin-bottom: 20px;
+	width: 980px;
+	box-sizing: border-box
+}
+
+.payment-container.health-coin .money {
+	color: #f90
+}
+
+.payment-container .pay-platform {
+	margin-top: 35px
+}
+
+.payment-container .pay-epay {
+	margin-top: 25px
+}
+
+.payment-container .pay-epay label {
+	font-size: 14px
+}
+
+.payment-container .pay-epay .valid-tip {
+	margin-top: 30px;
+	margin-bottom: 15px;
+	color: #898989
+}
+
+.payment-container .pay-epay .form-line {
+	margin-bottom: 15px
+}
+
+.payment-container .pay-epay .form-line .gfm-left {
+	float: left;
+	line-height: 30px;
+	height: 30px;
+	margin-right: 10px;
+	width: 115px;
+	text-align: right;
+	vertical-align: middle
+}
+
+.payment-container .pay-epay .form-line .valid-code-btn {
+	height: 32px;
+	line-height: 32px
+}
+
+.payment-container .pay-epay .form-line .gfm-input {
+	width: 127px
+}
+
+.payment-container h2 {
+	font-size: 18px;
+	padding: 10px 0 30px;
+	font-weight: 400
+}
+
+.payment-container .platform-list {
+	padding-top: 30px
+}
+
+.payment-container .platform-list .bank-radio {
+	border: 1px solid #ccc;
+	padding: 15px 10px;
+	vertical-align: middle;
+	margin-right: 20px;
+	margin-left: 5px;
+	cursor: pointer
+}
+
+
+.payment-container .platform-list .payment-form .payment-radio-list .bank-radio {
+	padding: 0;
+	width: 143px;
+}
+
+.payment-container .platform-list .payment-form .payment-radio-list .payment-radio-item {
+	display: -moz-inline-stack;
+	display: inline-block;
+	zoom: 1;
+	overflow: hidden;
+	margin-top: 15px
+}
+
+.payment-container .platform-list .payment-form .payment-radio-list .activity {
+	display: -moz-inline-stack;
+	display: inline-block;
+	zoom: 1;
+	vertical-align: middle;
+	overflow: hidden;
+	margin-right: 8px;
+	margin-left: 8px
+}
+
+.payment-container .platform-list .payment-form .payment-radio-list .activity img {
+	vertical-align: middle
+}
+
+.payment-container .platform-list .payment-form .payment-radio-list .activity_span {
+	color: red;
+	vertical-align: middle;
+	font-size: 13px
+}
+
+.payment-container .platform-list .payment-form .payment-wy-list {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+	margin-bottom: 10px
+}
+
+.payment-container .platform-list .payment-form .payment-wy-list .recharge {
+	padding: 0 5px
+}
+
+.payment-container .platform-list .select-great-pay {
+	margin-bottom: 15px
+}
+
+.payment-container .platform-list .select-great-pay label {
+	cursor: pointer;
+	vertical-align: middle;
+	display: inline-block
+}
+
+.payment-container .platform-list .select-great-pay a {
+	vertical-align: middle
+}
+
+.payment-container .platform-list .select-great-disabled {
+	margin-bottom: 15px;
+	color: #e4e4e4
+}
+
+.payment-container .platform-list .select-great-disabled label {
+	vertical-align: middle;
+	display: inline-block
+}
+
+.payment-container .platform-list .select-great-disabled a {
+	vertical-align: middle
+}
+
+.payment-container .platform-list .select-great-disabled .bank-radio {
+	border-color: #e4e4e4;
+	cursor: auto
+}
+
+.payment-container .platform-list .form-tip {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #898989
+}
+
+.payment-container .platform-list .form-line {
+	margin-bottom: 15px
+}
+
+.payment-container .platform-list .form-line .gfm-left {
+	line-height: 30px;
+	height: 30px;
+	width: 115px;
+	text-align: right;
+	vertical-align: middle;
+	font-size: 14px;
+	display: -moz-inline-stack;
+	display: inline-block;
+	zoom: 1;
+	overflow: hidden
+}
+
+#gf .code a,
+#gf .copyright,
+#module-wx-payment,
+#payment-result .btn-jlj,
+.payment-container.loading,
+.popbox .pop-tip {
+	text-align: center
+}
+
+.payment-container .platform-list .form-line .valid-code-btn {
+	height: 32px;
+	line-height: 32px
+}
+
+.payment-container .platform-list .form-line .gfm-input {
+	width: 127px
+}
+
+.payment-container .platform-list .form-line .onlinepay {
+	vertical-align: middle;
+	margin-left: 50px
+}
+
+.payment-container .platform-list .form-line .error-tip {
+	background: url(../img/error-tip.png) no-repeat;
+	padding-left: 17px;
+	margin-left: 5px;
+	color: #da222c;
+	display: none
+}
+
+.payment-container .platform-list .J_OnlinepaySubmit,
+.payment-container .platform-list .onlinepay-submit {
+	margin: 20px 0 0 120px;
+	width: 137px
+}
+
+.payment-container .platform-select {
+	height: 35px;
+	border-bottom: 1px solid #f6aea4
+}
+
+.payment-container .platform-select li {
+	width: 130px;
+	height: 35px;
+	background: #DFF2FF;
+	color: #377BEE;
+	text-align: center;
+	line-height: 35px;
+	font-size: 16px;
+	float: left;
+	margin-right: 10px;
+	cursor: pointer
+}
+
+.payment-container .platform-select li.selected {
+	background: #f6aea4;
+	color: #fff
+}
+
+.payment-container.commercial-insurance {
+	display: none;
+	width: 906px;
+	margin-bottom: 30px;
+	padding: 10px 45px 10px 25px;
+	line-height: 1.6
+}
+
+.payment-container.commercial-insurance h3 {
+	font-weight: 400;
+	font-size: 14px
+}
+
+.payment-container.commercial-insurance li {
+	margin-top: 5px
+}
+
+.payment-container.commercial-insurance .tip {
+	display: none
+}
+
+.payment-container.commercial-insurance .tip p {
+	text-indent: 2em
+}
+
+.payment-container.commercial-insurance .tip p:first-child {
+	text-indent: 0
+}
+
+.payment-container.commercial-insurance .detail,
+.payment-container.commercial-insurance .money {
+	margin-left: 20px
+}
+
+.payment-container.commercial-insurance .money span {
+	color: #f9a821
+}
+
+.payment-container.commercial-insurance .check {
+	margin-left: 0
+}
+
+.payment-container.medical-insurance {
+	padding: 10px 25px;
+	margin-bottom: 20px;
+	width: 980px;
+	box-sizing: border-box
+}
+
+.payment-container.medical-insurance .con {
+	padding-left: 20px
+}
+
+.payment-container.medical-insurance .canuse {
+	padding: 10px 20px;
+	position: relative
+}
+
+.epay-recharge h2,
+.epay-recharge h3 {
+	padding-left: 210px;
+	font-weight: 400
+}
+
+.payment-container.medical-insurance .tit {
+	font-size: 14px
+}
+
+.payment-container.medical-insurance .gbt-blue {
+	margin-left: 35px
+}
+
+.payment-container.medical-insurance .gbt-blue1 {
+	background: #377bee
+}
+
+.payment-container.medical-insurance .gbt-blue1.gbt-off {
+	background: #eaeaea
+}
+
+.payment-container.medical-insurance .text-wrap {
+	display: -moz-inline-stack;
+	display: inline-block;
+	zoom: 1;
+	vertical-align: top;
+	position: relative
+}
+
+.payment-container.medical-insurance .error-msg {
+	position: absolute;
+	top: 35px;
+	left: 0;
+	color: #da222c;
+	width: 200%
+}
+
+.payment-container.medical-insurance .error-msg:before {
+	content: '';
+	background: url(../img/error-tip.png) no-repeat;
+	float: left;
+	width: 12px;
+	height: 12px;
+	display: block;
+	background-size: contain;
+	margin: 2px 3px 0 0
+}
+
+.payment-container.medical-insurance .re-error-msg {
+	color: #da222c
+}
+
+.payment-container.medical-insurance .re-error-msg:before {
+	content: '';
+	background: url(../img/error-tip.png) no-repeat;
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	background-size: contain;
+	margin: 2px 3px 0 0
+}
+
+.payment-container.medical-insurance .money {
+	color: #f90
+}
+
+.payment-container.medical-insurance .requery .gbt-blue1 {
+	margin: 0 20px
+}
+
+.payment-container.medical-insurance .selected-icon {
+	background-repeat: no-repeat;
+	display: inline-block;
+	position: absolute;
+	background-image: url(../img/selected.png);
+	background-position: 0 0;
+	width: 22px;
+	height: 17px;
+	left: -6px;
+	top: 9px
+}
+
+.epay-recharge {
+	padding-bottom: 100px
+}
+
+.epay-recharge h2 {
+	font-size: 24px;
+	padding-bottom: 20px
+}
+
+.epay-recharge .gfm-line {
+	padding-left: 190px
+}
+
+.epay-recharge .gfm-line input {
+	width: 173px
+}
+
+.epay-recharge .gfm-line .gfm-left {
+	font-size: 14px
+}
+
+.epay-recharge .gfm-line .gbt-green {
+	width: 153px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px
+}
+
+.epay-recharge .gfm-line .gfm-item {
+	margin: 25px 0
+}
+
+.epay-recharge .gfm-line #vcode_img {
+	width: 77px;
+	height: 30px;
+	border: 1px solid #e2e2e2;
+	vertical-align: top
+}
+
+.epay-recharge .g-tips-box-error {
+	margin-left: 105px;
+	width: 163px;
+	margin-top: -16px
+}
+
+.paying {
+	position: absolute;
+	z-index: 9999;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	opacity: .65;
+	filter: alpha(opacity=65)
+}
+
+.payingimg {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -40px;
+	margin-top: -40px
+}
+
+.detail-wrap {
+	width: 982px;
+	margin: 20px auto
+}
+
+.order-summary {
+	width: 980px;
+	position: relative;
+	background: #fff6f7 54px 30px ;
+	background-size: 48px 48px;
+	border: 1px solid #ffe5e9;
+	overflow: hidden
+}
+
+.insur-pop,
+.popbox .close,
+.popupBox {
+	position: absolute
+}
+
+.order-summary h3 {
+	font-size: 18px;
+	color: #666;
+	text-indent: 120px;
+	margin-top: 30px;
+	font-weight: 400
+}
+
+.insur-pop .close,
+.popupBox .close {
+	float: right;
+	margin-top: -25px;
+	margin-right: 20px
+}
+
+.order-summary h3 .left-time {
+	color: #5CA946;
+	font-size: 18px
+}
+
+.order-summary h3 .left-time i {
+	font-size: 18px;
+	font-style: normal
+}
+
+.order-summary .order-money {
+	position: absolute;
+	right: 40px;
+	bottom: 10px;
+	font-size: 14px
+}
+
+.order-summary .order-money label {
+	display: block;
+	margin-bottom: 10px
+}
+
+.order-summary .order-money .price {
+	font-size: 18px
+}
+
+.order-summary .order-money .real-price {
+	font-size: 18px;
+	color: #f90
+}
+
+.order-summary .order-detail {
+	padding: 20px 0 30px 120px;
+	width: 830px
+}
+
+.order-summary .order-detail li {
+	list-style: none;
+	color: #888
+}
+
+.popupBox {
+	display: none;
+	width: 370px;
+	background: #fff;
+	height: 250px
+}
+
+.popupBox h2 {
+	height: 40px;
+	padding: 0;
+	background: #F5F5F5;
+	font-size: 16px;
+	color: #444;
+	line-height: 40px;
+	text-indent: 20px
+}
+
+.popupBox .close {
+	width: 16px;
+	height: 16px;
+	background: url(../img/close.png) no-repeat;
+	display: block
+}
+
+.popupBox .content {
+	padding: 30px 20px;
+	font-size: 14px;
+	line-height: 180%
+}
+
+.popupBox .failed,
+.popupBox .finish {
+	width: 42%;
+	display: inline-block;
+	padding: 10px 0;
+	background: #377BEE;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 5px
+}
+
+.popupBox .failed {
+	background: #C2C2C2
+}
+
+.popupBox .others {
+	text-indent: 20px;
+	padding: 20px 0
+}
+
+.insur-pop {
+	display: none;
+	width: 700px;
+	background: #fff;
+	height: 500px
+}
+
+.insur-pop h2 {
+	height: 40px;
+	padding: 0;
+	background: #F5F5F5;
+	font-size: 16px;
+	color: #444;
+	line-height: 40px;
+	text-indent: 20px
+}
+
+.insur-pop .close {
+	width: 16px;
+	height: 16px;
+	background: url(../img/close.png) no-repeat;
+	display: block
+}
+
+.insur-pop .content {
+	padding: 10px 20px;
+	font-size: 14px;
+	line-height: 180%;
+	overflow-y: auto;
+	height: 435px
+}
+
+.popbox {
+	width: 550px;
+	background: #fff
+}
+
+.popbox .pop-hasform {
+	width: 310px;
+	margin: 50px auto
+}
+
+.popbox .pop-hasform .detail-pay {
+	font-size: 18px
+}
+
+.popbox .pop-hasform .detail-pay .price {
+	color: #da222c;
+	font-size: 18px
+}
+
+.popbox .pop-hasform h2 {
+	font-size: 18px;
+	color: #333;
+	font-weight: 400
+}
+
+.popbox .pop-hasform h3 {
+	font-size: 14px;
+	color: #888;
+	font-weight: 400;
+	margin-top: 8px
+}
+
+.popbox .pop-hasform .validcode-tip-wrap {
+	height: 36px;
+	padding: 1px 0
+}
+
+.popbox .pop-hasform .validcode-tip {
+	color: #888;
+	background: url(../img/success-ion.png) no-repeat;
+	background-size: 16px 16px;
+	padding-left: 20px;
+	margin: 10px 0
+}
+
+.popbox .pop-hasform .ipt-item {
+	margin-top: 10px
+}
+
+.popbox .pop-hasform .ipt-item p {
+	font-size: 14px;
+	color: #333;
+	margin: 8px 0
+}
+
+.popbox .pop-hasform .ipt-item .pop-ipt {
+	border: 1px solid #ccc;
+	line-height: 18px;
+	font-size: 14px;
+	padding: 8px 5px;
+	width: 298px
+}
+
+.popbox .pop-hasform .ipt-item #p-wybank-trans-pwd,
+.popbox .pop-hasform .ipt-item .pge_wy_bank {
+	border: 1px solid #ccc;
+	width: 298px;
+	height: 35px;
+	line-height: 34px
+}
+
+.popbox .pop-hasform .ipt-item .pop-ipt-type2 {
+	width: 180px;
+	float: left
+}
+
+.popbox .pop-hasform .ipt-item .valid-code-btn {
+	width: 90px;
+	height: 38px;
+	line-height: 38px;
+	float: right;
+	font-size: 16px
+}
+
+.popbox .pop-tip {
+	padding: 70px 0 90px
+}
+
+.popbox .pop-tip .error-tit {
+	line-height: 36px;
+	margin-bottom: 18px
+}
+
+.popbox .pop-tip .error-tit img {
+	vertical-align: top;
+	margin-right: 15px
+}
+
+.popbox .pop-tip .error-tit span {
+	color: #da222c;
+	font-size: 18px;
+	font-weight: 400
+}
+
+.popbox .pop-tip h3 {
+	color: #888;
+	font-size: 16px;
+	margin-bottom: 25px;
+	font-weight: 400
+}
+
+.popbox .pop-tip p {
+	color: #333;
+	font-size: 14px
+}
+
+.popbox .error-tip {
+	background: url(../img/error-tip.png) no-repeat;
+	padding-left: 17px;
+	color: #da222c;
+	display: none;
+	line-height: 13px;
+	margin-left: 20px
+}
+
+.popbox .btn-wrap {
+	margin-top: 30px
+}
+
+.popbox .pop-btn {
+	display: -moz-inline-stack;
+	display: inline-block;
+	zoom: 1;
+	overflow: hidden;
+	height: 40px;
+	line-height: 40px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color: #fff;
+	background-color: #f9a821;
+	padding: 0 30px;
+	font-size: 16px;
+	margin-top: 10px
+}
+
+.popbox .close {
+	right: 10px;
+	top: 10px;
+	height: 21px;
+	width: 21px;
+	background: url(../img/icons-v4.png) 0 -113px no-repeat
+}
+
+#module-wx-payment h2 {
+	font-size: 20px;
+	padding: 10px 0
+}
+
+#module-wx-payment .payinfo {
+	font-size: 14px
+}
+
+#module-wx-payment .payinfo .cash {
+	font-size: 36px;
+	color: #377BEE;
+	display: block;
+	padding: 20px 0
+}
+
+#module-wx-payment .confirm-btn {
+	background-color: #377BEE;
+	float: none;
+	margin: 20px auto
+}
+
+.error-content {
+	border: 1px solid #F6D1CF;
+	background: url(../img/error-ion-2.png) 150px 30px no-repeat #fcf1f1;
+	padding: 40px 50px 50px 0;
+	margin: 50px 0 300px
+}
+
+.error-content p {
+	margin-left: 230px;
+	font-size: 22px;
+	line-height: 42px
+}
+
+.error-content p.link {
+	font-size: 14px;
+	color: #999;
+	margin-top: 20px
+}
+
+.error-content p a {
+	font-size: 14px
+}
+
+#payment-result {
+	width: 980px;
+	height: auto;
+	padding: 10px 0 40px;
+	margin: 50px 0 300px;
+	background: url(../img/success-ion.png) 50px 35px no-repeat #f5faf4;
+	border: 1px solid #DFEFDB
+}
+
+#payment-result .success-return {
+	float: none;
+	text-indent: 0;
+	overflow: hidden;
+	margin: 20px 0 0 150px;
+	height: 60px
+}
+
+#payment-result .success-return #countdown {
+	font-size: 16px
+}
+
+#payment-result h3 {
+	font-size: 20px;
+	color: #333;
+	text-indent: 150px;
+	margin-top: 30px
+}
+
+#payment-result h3 .left-time {
+	color: #5CA946;
+	font-size: 22px
+}
+
+#payment-result p {
+	text-indent: 150px;
+	font-size: 16px;
+	margin-top: 18px
+}
+
+#payment-result p .price {
+	font-size: 18px;
+	color: #f90
+}
+
+#payment-result .btn-jlj {
+	width: 86px;
+	height: 24px;
+	color: #f90;
+	border: 1px solid #f90;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	line-height: 24px;
+	padding: 0 5px;
+	display: -moz-inline-stack;
+	display: inline-block;
+	zoom: 1;
+	overflow: hidden;
+	font-size: 14px;
+	text-indent: 0
+}
+
+#payment-result .btn-jlj:hover {
+	text-decoration: none;
+	color: #fff;
+	background-color: #f90
+}
+
+#gf,
+#gf .links dt a {
+	color: #333
+}
+
+#gf {
+	background-color: #f5f5f5;
+	border-top: 1px solid #e4e4e4
+}
+
+#gf .g-container {
+	margin: 0 auto;
+	padding: 15px 0 25px;
+	width: 980px
+}
+
+#gf .wu-logo {
+	width: 153px;
+	height: 125px;
+	background: url(../img/wu-logo_01.png) left center no-repeat
+}
+
+#gf .logo {
+	width: 101px;
+	height: 110px;
+	background: url(../img/hpnew-logo.png?_=20151125)
+}
+
+#gf .links {
+	width: 325px;
+	margin: 25px 50px 0 60px
+}
+
+#gf .links dt {
+	line-height: 18px;
+	margin-bottom: 5px;
+	font-size: 16px
+}
+
+#gf .links dd {
+	line-height: 24px;
+	font-size: 12px
+}
+
+#gf .links dd a {
+	color: #888
+}
+
+#gf .links dl {
+	float: left
+}
+
+#gf .links dl.one {
+	width: 270px
+}
+
+#gf .links dl.one dd {
+	float: left;
+	padding-right: 30px
+}
+
+#gf .links dl.two dd {
+	font-size: 16px;
+	line-height: 67px
+}
+
+#gf .links dl.two dd a {
+	color: #333
+}
+
+#gf .code a {
+	float: left;
+	width: 131px;
+	height: 102px;
+	padding-top: 18px;
+	margin-right: 20px;
+	font-size: 12px;
+	line-height: 16px;
+	color: #888;
+	background-color: #fff
+}
+
+#gf .code a i {
+	display: block;
+	width: 43px;
+	height: 44px;
+	background: url(../img/homepage-sp.png?_=20141027) -7px -140px no-repeat;
+	margin: 0 auto 10px
+}
+
+#gf .code a.cha i {
+	background-position: 0 -212px;
+	width: 57px;
+	height: 44px
+}
+
+#gf .code a.fudanmed {
+	margin-right: 0
+}
+
+#gf .code a.fudanmed i {
+	background-position: -7px -284px;
+	width: 43px;
+	height: 43px
+}
+
+#gf .copyright {
+	color: #888;
+	margin-top: 10px
+}
+
+#gf .copyright a {
+	color: #888
+}
+
+#gf .copyright .alliance {
+	background: url(../img/homepage-sp.png?_=20151222) -169px -31px no-repeat;
+	width: 72px;
+	height: 26px;
+	display: inline-block;
+	position: relative;
+	top: 8px
+}
+
+#gf .copyright .attestation {
+	background: url(../img/homepage-sp.png?_=20151222) -167px 0 no-repeat;
+	height: 29px;
+	margin: 0 0 0 4px;
+	top: 9px
+}
+
+#gf .copyright .record {
+	background: url(../img/homepage-sp.png?_=20151222) -168px -58px no-repeat;
+	width: 77px;
+	height: 31px;
+	display: inline-block;
+	position: relative;
+	top: 10px
+}
